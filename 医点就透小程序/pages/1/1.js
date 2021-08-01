@@ -19,8 +19,8 @@ Page({
   
     //文字识别 获取token
     getBaiduToken: function(){
-      var apiKey = 'Nb4DQFwsN2IBPauSwSgnb9Me';    
-      var secKey = 'd55WIPIfTTqxOjCTwkGWa6h9nIRqySd1';    
+      var apiKey = '******';    
+      var secKey = '******';    
       var tokenUrl = `https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=${apiKey}&client_secret=${secKey}`;    
       var that = this;    
       wx.request({        
