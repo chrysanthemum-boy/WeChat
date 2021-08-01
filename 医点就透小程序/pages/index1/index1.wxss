@@ -1,0 +1,42 @@
+.scoups{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  background: linear-gradient(#86d0d0, #81e1b4);
+  border-radius: 20rpx;
+}
+
+.woozi {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wonwoo {
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 50%;
+  border: 30rpx solid  #036159;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.joshua {
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  position: relative;
+  border: 30rpx solid #036159;
+  top: 82.5rpx;
+  left: 82.5rpx;
+}
+
+.mutu{
+  text-align: center;
+  line-height: 200rpx;
+}
+.akaashi{
+  font-size: 60rpx;
+}

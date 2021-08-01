@@ -1,0 +1,13 @@
+<navigator url="/pages/index/index" hover-class="changestyle">
+  <view class="scoups">
+    <view class='woozi'>
+      <view class="wonwoo">
+        <view class="joshua">
+        </view>
+      </view> 
+    </view>
+  </view>  
+<view class='mutu'>
+  <text class="akaashi">点击转译病历</text>
+</view> 
+</navigator>

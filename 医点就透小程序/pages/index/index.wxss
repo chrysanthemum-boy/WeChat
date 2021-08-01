@@ -1,0 +1,83 @@
+.kong{
+  width: 100%;
+ height:23px;
+ background: white;
+}
+.kong1{
+  width: 100%;
+ height:40px;
+ background: white;
+}
+.a{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#81dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#81dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#82dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#82dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#82dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#82dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g{
+  width: 230px;
+  height: 52px;
+  margin: 0 auto;
+  background:#82dbdb;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.txt{
+  font-size: 37rpx;
+}

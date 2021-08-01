@@ -1,0 +1,42 @@
+<view class="kong1"></view>
+<navigator url="/pages/6/6" hover-class="changestyle"  animation="{{slide_up1}}" class='index'>
+  <view class="f">
+    <text class="txt">血液检查(男)</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/7/7" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="g">
+    <text class="txt">血液检查(女)</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/4/4" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="d">
+    <text class="txt">尿常规检查</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/1/1" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="a">
+    <text class="txt">粪便检查</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/2/2" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="b">
+    <text class="txt">肝功能检查</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/3/3" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="c">
+    <text class="txt">静脉血化验</text>
+  </view>
+</navigator>
+<view class="kong"></view>
+<navigator url="/pages/5/5" hover-class="changestyle"animation="{{slide_up1}}" class='index'>
+  <view class="e">
+    <text class="txt">尿十一项检查</text>
+  </view>
+</navigator>

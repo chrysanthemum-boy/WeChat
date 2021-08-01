@@ -1,0 +1,96 @@
+
+<!--前景-->
+<view class="animation" wx:if="{{animation||slide_do1}}" animation="{{slide_do1}}">
+  <view class="animation-list">
+    <view class="scoups">
+      <view class="woozi">
+        <view class = "wonwoo">
+          <view class="joshua">
+
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 图片区域-->
+<view class='pages'>
+  <view class='face'>
+    <scroll-view class='scroll' scroll-y >
+       <image src='{{images}}' mode='widthFix'></image>      
+    </scroll-view>
+  </view>
+</view>
+
+<!--识别结果-->
+<view class='result'>
+  <view class="result2" wx:if="{{result2}}">
+    <text>识别结果</text>
+  </view>
+</view>
+
+<!--提示文字-->
+<view class='tip'>
+  <view class="result2" wx:if="{{result2}}">
+    <text>请在右侧输入框内手动输入此项目相对应的数值</text>  
+   </view>
+   <view class="result2" wx:if="{{result2}}">
+    <text>（若识别有误请劳烦手动更改数据）</text>
+  </view>
+</view>
+
+<!--识别的文字-->
+<view class="words">
+  <view class="words2">
+<!-- 识别结果view -->
+   <view class="search_con">
+ <!-- 表单 -->
+    <block wx:for="{{words2}}">
+      <form bindsubmit="formSubmit">
+   <!-- 记得设置name值，这样JS才能接收name=keyword的值 -->
+       <scroll-view enable-flex="true" class='words1' scroll-y>     
+            <view class = "scrolls" > 
+              <input type="text" name="keyword" class="search_input" placeholder='请输入项目名称'  value='{{item.words}}'/>
+            </view>
+            <view class = "scrolls">
+              <view class='btns'>
+                <view class="input1"> 
+                    <input type="text" name="num" class="search_input" placeholder='请输入数据'>
+                    </input>
+                 </view>
+                 <view class="input2">
+                     <button formType="submit" class="search_btn">
+                          对比
+                     </button>
+                 </view>
+               </view>
+             </view>            
+        </scroll-view>
+      </form>
+    </block>  
+   </view>
+  </view>
+</view>
+
+<!--结果框-->
+<view class="result3">
+      <view wx:for="{{re}}" wx:key="re" >
+        <!-- 当提交空白表单的时候 -->
+         <view class="empty">{{item.empty}}</view>
+         <!-- 当有搜索结果的时候 -->
+         <view class="result1">{{item.result}}</view>
+         <!-- 当查询不到结果的时候 -->
+         <view class="noresult">{{item.noresult}}</view>
+      </view>
+   
+</view>
+
+<!--上传按钮-->
+<view>
+  <view class='btn'>
+     <view class="kong"></view>
+     <button type='primary' bindtap="doUpload">上传图片</button>
+   </view>
+</view>
+
