@@ -1,0 +1,43 @@
+<!--pages/store/store.wxml-->
+<!--搜索框-->
+<view class="header">
+  <view class="location">
+    <navigator url='../selectcity/selectcity'>{{location}}</navigator> 
+  </view>
+  <view class="search">
+    <navigator url='../search/search'>请输入你想要的内容</navigator> 
+  </view>
+</view>
+
+<!--产品分类-->
+<view class= "product-type">
+  <view class="item" wx:for='{{productType}}' wx:key='index' bindtap="produtType" data-mark="{{item.id}}">
+    <image src='{{item.imUrl}}'></image>
+    <view>{{item.name}}</view>
+  </view>
+</view>
+
+<!--数据展示-->
+
+<!--<view class="list">
+  <view class="list-img">
+    <image scr='医疗images/none.png'></image>
+  </view>
+  <view class='list-info'>
+    <view class='title'>标题</view>
+    <view calss='info'>内容</view>
+    <view class='info-bottom'>
+      <view class='price'>￥45.00</view>
+      <view class="num">23333人付款</view>
+    </view>
+  </view>
+</view>-->
+
+<import src='../../templates/goodsList/goodsList.wxml'></import>
+<template is='goodsList'></template>
+<template is='goodsList'></template>
+<template is='goodsList'></template>
+<template is='goodsList'></template>
+<template is='goodsList'></template>
+<template is='goodsList'></template>
+<template is='goodsList'></template>

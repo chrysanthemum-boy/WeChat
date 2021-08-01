@@ -1,0 +1,7 @@
+<!--pages/search/search.wxml-->
+<!--搜索-->
+<view class="header">
+  <view class="search">
+   <input type="text" placeholder="请输入你想要的内容" focus="true"></input>
+  </view>
+</view>

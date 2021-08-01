@@ -1,0 +1,46 @@
+/* pages/store/store.wxss */
+page{
+  background: #f1f1f1;
+}
+.header{
+  display: flex;
+  padding:10rpx;
+  background:white;
+  align-items: center;
+}
+.location{
+  width:100rpx;
+  text-align: center;
+}
+
+.search{
+  background:#f1f1f1;
+  color:#acacac;
+  flex: 1;
+  font-size:28rpx;
+  padding:10rpx;
+  border-radius: 20rpx;
+}
+
+.product-type{
+  background:#fff;
+  padding-top:20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item{
+  width: 25%;
+  text-align: center;
+  font-size:28rpx;
+  color:rgb(27, 177, 27);
+  margin-bottom: 20rpx;
+}
+
+.item image{
+  width:74rpx;
+  height: 74rpx;
+
+}
+
+@import '../../templates/goodsList/goodsList.wxss';

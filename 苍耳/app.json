@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/store/store",
+    "pages/identity/identity",
+    "pages/selectcity/selectcity",
+    "pages/search/search",
+    "pages/activity/activity",
+    "pages/entertainment/entertainment",
+    "pages/map/map",
+    "pages/score/score",
+    "pages/review/review",
+    "pages/health/health",
+    "pages/food/food",
+    "pages/sports/sports",
+    "pages/harvest/harvest",
+    "pages/analysis/analysis"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#00ff00",
+    "navigationBarTitleText": "苍耳小程序",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#226622",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#999",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "医疗images/tab01.png",
+        "selectedIconPath": "医疗images/tab1.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "商城",
+        "iconPath": "医疗images/tab02.png",
+        "selectedIconPath": "医疗images/tab2.png"
+      },
+      {
+        "pagePath": "pages/identity/identity",
+        "text": "个人中心",
+        "iconPath": "医疗images/tab04.png",
+        "selectedIconPath": "医疗images/tab4.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"      
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

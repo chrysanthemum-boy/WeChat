@@ -1,0 +1,22 @@
+<!--pages/identity/identity.wxml-->
+<view class='content'>
+  <button class='button'wx:if="{{isShow}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击授权</button>
+  <view class='userinfo' wx:else>
+    <view class='img'><image src='{{avatarUrl}}'></image></view>
+    <view class='name'>{{nickName}}</view>
+  </view>
+</view>
+<view class='content'>
+  <view class="vw">个人信息</view>
+</view>
+<view class='content'>
+  <view>手环信息</view>
+</view>
+<view class='content'>
+  <view>积分信息</view>
+</view>
+<view class='content'>
+  <view>订单信息</view>
+</view>
+
+

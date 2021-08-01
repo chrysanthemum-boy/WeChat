@@ -1,0 +1,88 @@
+/* // wxss */
+.fix{
+  margin: 10rpx;
+  display: flex;
+  justify-content: center;
+  opacity: 0; 
+  /* // 透明度数 */
+  transform: translateY(700px); 
+  /* // 偏移量 */
+}
+.progress_box{
+  position: relative;
+  width:220px;
+  height: 220px;  
+/* // 这里的宽高是必须大于等于canvas圆环的直径 否则绘制到盒子外面就看不见了
+// 一开始设置 width:440rpx; height:440rpx; 发现 在360X640分辨率的设备，下绘制的圆环跑盒子外去了
+// 小程序使用rpx单位适配 ，但是canvas绘制的是px单位的。所以只能用px单位绘制的圆环在盒子内显示 */
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  
+}
+.progress_bg{
+  position: absolute;
+    width:220px;
+  height: 220px; 
+}
+.progress_canvas{ 
+  width:220px;
+  height: 220px; 
+} 
+.progress_text{ 
+  position: absolute; 
+  display: flex;  
+  align-items: center;
+  justify-content: center
+}
+.progress_info{   
+  font-size: 36rpx;
+  padding-left: 16rpx;
+  letter-spacing: 2rpx
+} 
+
+.progress_dot{
+  width:16rpx;
+  height: 16rpx;  
+  border-radius: 50%;
+  background-color: #fb9126;
+}
+
+.text{
+  display: flex;
+  height: 200rpx;
+  width: 100%;
+  background: rgb(4, 177, 4);
+}
+.big{
+  padding:10rpx 10rpx;
+  height: 200rpx;
+  width: 550rpx;
+  display: flex;
+  background:rgb(86, 255, 137);
+  border-radius: 20rpx;
+}
+.row4{
+  display: flex;
+ width: 100%;
+ /* background:rgb(67, 156, 190); */
+ border-radius: 20rpx;
+ align-items: center;
+}
+.big1{
+  padding:10rpx 10rpx;
+  height: 200rpx;
+  width: 550rpx;
+  display: flex;
+  background:rgb(226, 241, 9);
+  border-radius: 20rpx;
+}
+.big2{
+  padding:10rpx 10rpx;
+  height: 200rpx;
+  width: 550rpx;
+  display: flex;
+  background:rgb(247, 79, 13);
+  border-radius: 20rpx;
+}

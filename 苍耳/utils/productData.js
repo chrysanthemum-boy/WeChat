@@ -1,0 +1,42 @@
+module.exports=[
+  {
+    id:1,
+    imUrl:"../../医疗images/baojianpin.png",
+    name:"保健品"
+  },
+  {
+    id:2,
+    imUrl:"../../医疗images/fuzhuang.png",
+    name:"服装"
+  },
+  {
+    id:3,
+    imUrl:"../../医疗images/fanghu.png",
+    name:"防护用品"
+  },
+  {
+    id:4,
+    imUrl:"../../医疗images/shoubiao.jpg",
+    name:"手环"
+  },
+ /*  {
+    id:5,
+    imUrl:"../../医疗images/dianzan1.png",
+    name:"文字"
+  },
+  {
+    id:6,
+    imUrl:"../../医疗images/dianzan1.png",
+    name:"文字"
+  },
+  {
+    id:7,
+    imUrl:"../../医疗images/dianzan1.png",
+    name:"文字"
+  },
+  {
+    id:8,
+    imUrl:"../../医疗images/dianzan1.png",
+    name:"文字"
+  }, */
+]

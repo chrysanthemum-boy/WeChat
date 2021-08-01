@@ -1,0 +1,78 @@
+<!--pages/home/home.wxml-->
+
+<!--轮播图片-->
+<view class='picture'>
+  <swiper class='swiper' indicator-dots="true" indicator-color="white" autoplay="true" interval="3000" circular="true">
+    <swiper-item>
+      <image  src='../../医疗images/picture1.jpg' mode="aspectFit"></image> 
+    </swiper-item>
+     <swiper-item>
+      <image src='../../医疗images/pictur2.jpg' mode="aspectFit"></image>
+     </swiper-item>
+     <swiper-item>
+      <image src='../../医疗images/picture3.jpg' mode="aspectFit"></image>
+     </swiper-item>
+     <swiper-item>
+      <image src='../../医疗images/pictur4.jpg' mode="aspectFit"></image>
+     </swiper-item>
+     <swiper-item>
+      <image src='../../医疗images/picture5.jpg' mode="aspectFit"></image>
+     </swiper-item>
+  </swiper>
+</view>
+
+<!--主要面板-->
+<view class="main">
+    <view class="big" style="flex-direction:row;">
+          <view class="row1" style="flex-direction:column;">
+            <view><navigator url="../map/map" class="demo-text-1">  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" circles="{{circles}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location ></map></navigator></view>
+            <navigator url="../score/score" class="demo-text-2">积分：999</navigator>
+          </view>
+          <view class="row2" style="flex-direction:column;">
+            <navigator url="../harvest/harvest" class="demo-text-3">今日收获</navigator>
+            <view class="row3" style="flex-direction:row;">
+              <navigator url="../sports/sports" class="demo-text-4"><image src="../../医疗images/yundong.png"  mode="aspectFit"></image></navigator>
+              <navigator url="../entertainment/entertainment" class="demo-text-5"><image src="../../医疗images/majaing1.png"  mode="aspectFit"></image></navigator>
+            </view>
+          </view>
+    </view>
+</view>
+<view class='main'>
+  <view class="big" style="flex-direction:row;">
+          <!-- <view class="row1" style="flex-direction:column;">
+            <view> </view>
+            <navigator url="../score/score" class="demo-text-2">积分：999</navigator>
+          </view> -->
+          <view class="row4" style="flex-direction:column;">
+            <navigator url="../analysis/analysis" class="demo-text-6">健康分析</navigator>
+            <view class="row3">
+              <navigator url="../analysis/analysis" class="analysis"><image src="../../医疗images/tingzhen1.png"  mode="aspectFit"></image></navigator>
+              <!-- <navigator url="../entertainment/entertainment" class="demo-text-5"><image src="../../医疗images/majaing1.png"  mode="aspectFit"></image></navigator> -->
+            </view>
+          </view>
+    </view>
+</view>
+
+<!--分块面板-->
+<view class="fenkuai">
+  <view class="fenkuai-small" style="flex-direction:row;">
+    <navigator url="../appointment/appointment" class="health">
+      <image class='health' src="../../医疗images/jiankang.jpg"  mode="aspectFit"></image>
+      <view class='text'>
+        <view>健康预约</view>
+      </view>
+    </navigator>
+    <navigator url="../review/review" class="review">
+      <image class= 'review' src="../../医疗images/huifang.jpg"   mode="center"></image>
+      <view class='text'>
+        <view>精彩回放</view>
+      </view>
+    </navigator>
+    <navigator url="../food/food" class="food">
+     <image  src="../../医疗images/baojian.jpg"  mode="center"></image>
+     <view class='text'>
+        <view>精选保健品</view>
+      </view>
+    </navigator>
+    </view>
+</view>

@@ -1,0 +1,58 @@
+<!--appointment.wxml-->
+<view class="container">
+  <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">专家们</view>
+      <view class="zan-cell__ft">Experts</view>
+    </view>
+        <block wx:for="{{ starCoaches }}">
+            <!-- <navigator url="/pages/articles-detail/index?id={{item.id}}"> -->
+            <view class="article__item">
+                <view class="article__thumb">
+                    <image class="article__image" src="../../医疗images/doctor.png"></image>
+                </view>
+                <view class="article__info">
+                    <view class="article__title">
+                    <view class="article__title_font">邱婷</view>
+                    <navigator url="/pages/coaches-detail/coaches-detail?id={{item.id}}">
+                        <view class="appointBtn border-radius">
+                            <view class="appointFont">约TA</view>
+                        </view>
+                    </navigator>
+                    </view>
+                    <view class="article__desc">
+                        <text class="article__time">上月成功预约{{ item.income }}次</text>
+                    </view>
+                </view>
+            </view>
+            <!-- </navigator> -->
+        </block>
+    </view>
+    <view class="zan-panel">
+    <view class="zan-cell">
+      <view class="zan-cell__bd">医生们</view>
+      <view class="zan-cell__ft">Doctors</view>
+    </view>
+        <block wx:for="{{ coaches }}">
+            <view class="article__item">
+                <view class="article__thumb">
+                    <image class="article__image" src="../../医疗images/doctor1.png"></image>
+                </view>
+                <view class="article__info">
+                    <view class="article__title">
+                    <view class="article__title_font">赵医生</view>
+                    <navigator url="/pages/coaches-detail/coaches-detail?id={{item.id}}">
+                        <view class="appointBtn border-radius">
+                            <view class="appointFont">约TA</view>
+                        </view>
+                    </navigator>
+                    </view>
+                    <!-- <view class="article__desc"> -->
+                        <!-- <text class="article__time">{{ item.keywords }}</text> -->
+                    <!-- </view> -->
+                </view>
+            </view>
+        </block>
+    </view>
+</view>
+<!-- <view class="footaboutme"><text>技术支持：智汇番茄科技工作室\r\nWechat：18629027590</text></view> -->

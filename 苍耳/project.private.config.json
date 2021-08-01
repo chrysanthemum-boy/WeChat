@@ -1,0 +1,60 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/store/store",
+          "pathName": "pages/store/store",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/identity/identity",
+          "pathName": "pages/identity/identity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/coaches/coaches",
+          "pathName": "pages/coaches/coaches",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/appointment/appointment",
+          "pathName": "pages/appointment/appointment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/coaches-detail/coaches-detail",
+          "pathName": "pages/coaches-detail/coaches-detail",
+          "query": "id=663",
+          "scene": null
+        },
+        {
+          "name": "pages/analysis/analysis",
+          "pathName": "pages/analysis/analysis",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

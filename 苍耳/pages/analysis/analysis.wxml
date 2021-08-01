@@ -1,0 +1,36 @@
+<view class="container">
+
+     <view class='progress_box' >
+        <canvas class="progress_bg"   canvas-id="canvasProgressbg">  </canvas> 
+        <canvas class="progress_canvas"   canvas-id="canvasProgress">  </canvas> 
+        <view class="progress_text">
+            <view class="progress_dot"></view> 
+            <navigator><text class='progress_info'> {{progress_txt}}</text></navigator>
+        </view>     
+     </view>
+  <view class="fix" animation="{{slide_up1}}">
+    <view class="big" style="flex-direction:row;">
+          <view class="row4" style="flex-direction:column;">
+          身体状况
+          </view>
+    </view> 
+  </view>
+
+  <view class="fix" animation="{{slide_up1}}">
+    <view class="big1" style="flex-direction:row;">
+          <view class="row4" style="flex-direction:column;">
+          健康指标
+          </view>
+    </view>
+  </view>
+
+  <view class="fix" animation="{{slide_up1}}">
+    <view class="big2" style="flex-direction:row;">
+          <view class="row4" style="flex-direction:column;">
+          风险分析
+          </view>
+    </view>
+  </view>
+
+</view>
+
